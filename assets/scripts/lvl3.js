@@ -10,10 +10,10 @@ const state =
 
         values: 
             {
-                gameVelocity: 2000,
+                gameVelocity: 800,
                 hitPosition: 0,
                 result: 0,
-                currentTime: 30,
+                currentTime: 5,
             },
 
         actions:
@@ -24,24 +24,32 @@ const state =
 
     };
 
-    function countDown()
-    {
+    function countDown() {
         state.values.currentTime--;
         state.view.timeLeft.textContent = state.values.currentTime;
+    
+        if (state.values.currentTime <= 0) {
+            clearInterval(state.actions.countDownTimerId);
+            clearInterval(state.actions.timerId);
+    
+            playSound("gameover");
+    
 
-        if(state.values.currentTime <= 0)
+            setTimeout(() => 
             {
-                clearInterval(state.actions.countDownTimerId)
-                clearInterval(state.actions.TimerId)
-                alert("Game Over! O seu resultado foi: " + state.values.result)
-            }
+                alert("Game Over! O seu resultado foi: " + state.values.result);
+            }, 150); 
+        }
     }
 
-    function playSound(){
-        let audio = new Audio("../assets/sounds/hit.m4a");
+
+    function playSound(audioName){
+        let audio = new Audio(`../assets/sounds/${audioName}.m4a`);
         audio.volume = 0.4;
         audio.play()
     }
+
+
 
     function randomSquare()
     {
@@ -50,7 +58,7 @@ const state =
                 square.classList.remove("enemy");
             });
 
-        let randonNumber = Math.floor(Math.random()*);
+        let randonNumber = Math.floor(Math.random()*9);
         let randomSquare = state.view.squares[randonNumber];
         randomSquare.classList.add("enemy");
         state.values.hitPosition = randomSquare.id;
@@ -66,7 +74,7 @@ const state =
                             state.values.result++
                             state.view.score.textContent = state.values.result;
                             state.values.hitPosition = null;
-                            playSound();
+                            playSound("hit");
                         };
                 });
         });

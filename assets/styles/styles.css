@@ -1,3 +1,23 @@
+/* Pagina menu */
+@font-face {
+    font-family: 'Detona'; /* Nome que você dará à fonte */
+    src: url('../fonts/sonic_advance_2.ttf') format('ttf')
+}
+.escolha-nivel{
+    background-image: url(../images/wall.png);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.jogar-nivel{
+    height: 40px;
+    width: 225px;
+    margin: 5px;
+    border-radius: 15px;
+}
+
 .container{
     display: flex;
     flex-direction: column;

@@ -79,7 +79,7 @@ const state =
                 });
         });
     }
-    
+
     function init () {
         addListenerHitBox();
     }
