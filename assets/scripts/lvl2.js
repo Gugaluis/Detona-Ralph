@@ -18,7 +18,7 @@ const state =
 
         actions:
             {
-                timerId:setInterval(randomSquare,1000),
+                timerId:setInterval(randomSquare,600),
                 countDownTimerId:setInterval(countDown,1000),
             } 
 
@@ -50,7 +50,7 @@ const state =
                 square.classList.remove("enemy");
             });
 
-        let randonNumber = Math.floor(Math.random()*9);
+        let randonNumber = Math.floor(Math.random()*16);
         let randomSquare = state.view.squares[randonNumber];
         randomSquare.classList.add("enemy");
         state.values.hitPosition = randomSquare.id;

@@ -21,11 +21,27 @@
 <body>
 
     <div class="escolha-nivel">
+        <H2 id="game-title">Whac-a-Ralph</H2>
 
+        <div class="enviar-botao">
+            <button type="button" name="button" id="comoJogar" onclick="openModal();">Como jogar ?</button>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <img src="./assets/images/close.svg" class="modal-close" id="close" onclick="closeModal()">
+                    <h3>Como Jogar:</h3>
+                    <br>
+                    <p>Bem-vindo ao Whac-a-Ralph! Neste jogo, você deve clicar nos Ralphs que aparecem na tela para marcar pontos, mas tome cuidado para não acertar o Félix, pois se acertar você irá perder o jogo. Tente acertar o máximo que conseguir dentro do tempo limite! <br><br> Bom jogo e divirta-se</p>
+                </div>
+            </div>
+                <div class="overlay" id="overlay" onclick="closeModal()"></div>
+        </div>
+        <br>
         <a href="levels/level1.html"><button class="jogar-nivel">Jogar nivel 1</button></a>
         <a href="levels/level2.html"><button class="jogar-nivel">Jogar nivel 2</button></a>
         <a href="levels/level3.html"><button class="jogar-nivel">Jogar nivel 3</button></a>
     </div>
+
+    <script src="./assets/scripts/script.js"></script>
     
 </body>
 </html>
