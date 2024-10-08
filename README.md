@@ -32,7 +32,7 @@ Para instalar e jogar **Whac a Ralph**, siga os passos abaixo:
    git clone https://github.com/seu-usuario/whac-a-ralph.git
 Navegue até o diretório do jogo:
 
-2. **Navegue até o diretório do jogo
+2. **Navegue até o diretório do jogo**
     ```bash
     cd seu-repositorio
 
