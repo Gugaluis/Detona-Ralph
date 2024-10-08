@@ -32,11 +32,11 @@ Para instalar e jogar **Whac a Ralph**, siga os passos abaixo:
    git clone https://github.com/seu-usuario/whac-a-ralph.git
 Navegue até o diretório do jogo:
 
-bash
-Copiar código
-cd whac-a-ralph
+2. **Navegue até o diretório do jogo
+    ```bash
+    cd seu-repositorio
 
-Abra o arquivo index.html em um navegador: Basta clicar duas vezes no arquivo index.html ou arrastá-lo para uma aba do navegador.
+3. Abra o arquivo index.html em um navegador: Basta clicar duas vezes no arquivo index.html ou arrastá-lo para uma aba do navegador.
 
 ⚙️ Níveis de Dificuldade
 Fácil: Ralphs aparecem a a cada 1 segundo e você tem um tempo de 60 segundos para pontuar.
