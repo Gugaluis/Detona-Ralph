@@ -20,9 +20,8 @@
     border-radius: 15px;
 }
 
-#game-title{
-    color: white;
-    font-family: 'DETONA', sans-serif; /* O segundo valor é uma fonte fallback */
+#logo{
+    width: 750px;
 }
 
 /* CSS DA MODAL COMO JOGAR */
@@ -93,11 +92,6 @@
 
 .enemy{
     background-image: url(../images/ralph.png);
-    background-size: cover;
-}
-
-.ally{
-    background-image: url(../images/ally.png);
     background-size: cover;
 }
 
