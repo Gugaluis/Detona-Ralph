@@ -38,31 +38,39 @@ Navegue até o diretório do jogo:
 
 3. Abra o arquivo index.html em um navegador: Basta clicar duas vezes no arquivo index.html ou arrastá-lo para uma aba do navegador.
 
-⚙️ Níveis de Dificuldade
-Fácil: Ralphs aparecem a a cada 1 segundo e você tem um tempo de 60 segundos para pontuar.
-Médio: Ralphs aparecem a a cada 0,8 segundos e você tem um tempo de 50 segundos para pontuar.
-Difícil: Ralphs aparecem a a cada 0,6 segundos e você tem um tempo de 40 segundos para pontuar.
+---
+
+### ⚙️ Níveis de Dificuldade
+
+**Fácil**: Ralphs aparecem a a cada 1 segundo e você tem um tempo de 60 segundos para pontuar.
+
+**Médio**: Ralphs aparecem a a cada 0,8 segundos e você tem um tempo de 50 segundos para pontuar.
+
+**Difícil**: Ralphs aparecem a a cada 0,6 segundos e você tem um tempo de 40 segundos para pontuar.
+
+
 Você pode selecionar o nível de dificuldade no início do jogo.
 
-🎨 Estilizações
+---
+
+### 🎨 Estilizações
+
 O jogo utiliza HTML, CSS e JavaScript para sua estrutura e estilo:
 
 HTML: Estrutura básica do jogo, incluindo botões e área de pontuação.
 CSS: Estilizações para deixar o jogo visualmente atrativo, com cores vibrantes e animações suaves.
 JavaScript: Lógica do jogo, controle do tempo, pontuação e interação do usuário.
 
-🤝 Contribuição
+### 🤝 Contribuição
+
 Contribuições são bem-vindas! Se você deseja melhorar o jogo, siga os passos:
 
-Faça um fork do repositório.
-Crie uma nova branch (git checkout -b feature/MinhaNovaFuncionalidade).
-Faça suas alterações e commit (git commit -m 'Adiciona nova funcionalidade').
-Envie para o repositório remoto (git push origin feature/MinhaNovaFuncionalidade).
-Abra um Pull Request.
+1. Faça um fork do repositório.
+2. Crie uma nova branch (git checkout -b feature/MinhaNovaFuncionalidade).
+3. Faça suas alterações e commit (git commit -m 'Adiciona nova funcionalidade').
+4. Envie para o repositório remoto (git push origin feature/MinhaNovaFuncionalidade).
+5. Abra um Pull Request.
 
 Divirta-se jogando Whac a Ralph! 🎉
-
-markdown
-Copiar código
 
 Sinta-se à vontade para ajustar ainda mais conforme necessário!
