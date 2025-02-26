@@ -20,6 +20,7 @@
     border-radius: 15px;
 }
 
+
 #logo{
     width: 750px;
 }
@@ -65,6 +66,17 @@
     background-image: url(../images/wall.png);
 }
 
+.back-button{
+    display: flex;
+    background-color: red;
+    height: 50px;
+    width: 130px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
 .menu {
     display: flex;
     justify-content: space-evenly;
@@ -95,6 +107,11 @@
     background-size: cover;
 }
 
+.ally{
+    background-image: url(../images/ally.png);
+    background-size: cover;
+}
+
 .menu-lives{
     display: flex;
     align-items: center;
@@ -106,4 +123,9 @@
     margin-top: 1rem;
     display: flex;
     justify-content: center;
+}
+
+.back-button{
+    background-color: red;
+    color: white;
 }
